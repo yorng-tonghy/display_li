@@ -1,0 +1,12 @@
+xrandr --newmode "1920x1080_60.00"   29.50  800 824 896 992  480 483 493 500 -hsync +vsyn
+xrandr --addmode HDMI-A-1 "1920x1080_60.00"
+xrandr --output HDMI-2 --mode "1920x1080_60.00"
+
+
+cvt 1920x1080_60.00
+xrandr --newmode "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120 
+
+xrandr --addmode DP-2 "1920x1080_60.00"
+xrandr --output DP-2 --mode "1920x1080_60.00"
+
+-hsync +vsync
